@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body {
+    background-color: azure;
+}
+.btn-color{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-color button {
+    width: 110px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 4px solid #fff;
+    cursor: pointer;
+}
+
+.color-name {
+    width: 300px;
+    position: absolute;
+    left: 38%;
+    top: 80%;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 3px 3px 2px #fff;
+}
+
+.active {
+    border: 4px solid wine;
+}
